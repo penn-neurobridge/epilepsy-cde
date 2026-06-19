@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-06-19T16:49:23.081Z",
+  "version": "20260619164923081",
+  "sources": [
+    {
+      "key": "sample-preclinical-cdes-v1",
+      "label": "Sample Preclinical CDEs",
+      "study_type": "Preclinical",
+      "kind": "sample",
+      "order": 0,
+      "files": [
+        "cde.parquet",
+        "cde_classification.parquet",
+        "bundle.parquet",
+        "provenance.parquet",
+        "crf.parquet",
+        "relationships.parquet"
+      ]
+    },
+    {
+      "key": "nlm-ninds-disease-epilepsy",
+      "label": "NLM NINDS Disease Epilepsy",
+      "study_type": "Clinical",
+      "kind": "production",
+      "order": 1,
+      "files": [
+        "cde.parquet",
+        "cde_classification.parquet",
+        "provenance.parquet",
+        "crf.parquet",
+        "relationships.parquet"
+      ]
+    },
+    {
+      "key": "ninds-epilepsy",
+      "label": "NINDS Epilepsy CDEs",
+      "study_type": "Clinical",
+      "kind": "production",
+      "order": 2,
+      "files": [
+        "cde.parquet",
+        "cde_classification.parquet",
+        "provenance.parquet",
+        "crf.parquet",
+        "relationships.parquet"
+      ]
+    },
+    {
+      "key": "pte-clinical",
+      "label": "PTE Clinical CDEs",
+      "study_type": "Clinical",
+      "kind": "sample",
+      "order": 3,
+      "files": [
+        "cde.parquet",
+        "cde_classification.parquet",
+        "bundle.parquet",
+        "provenance.parquet",
+        "crf.parquet",
+        "relationships.parquet"
+      ]
+    },
+    {
+      "key": "cure-sudep",
+      "label": "CURE SUDEP Preclinical CDEs",
+      "study_type": "Preclinical",
+      "kind": "production",
+      "order": 4,
+      "files": [
+        "cde.parquet",
+        "cde_classification.parquet",
+        "provenance.parquet",
+        "crf.parquet",
+        "relationships.parquet"
+      ]
+    }
+  ],
+  "derived": {
+    "concept": "concept.parquet",
+    "cde_represents_concept": "cde_represents_concept.parquet"
+  }
+}
